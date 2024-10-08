@@ -94,11 +94,11 @@ Utiliza el wireframe como guía para **mostrar un listado de líneas con su resp
 - **Fidelidad al Wireframe:** Asegúrate de no desviarte del esquema principal, pero también agrega detalles visuales que creas relevantes.
 - **Mejora de UX:** Aplicar principios de diseño que mejoren la experiencia del usuario con interacciones, transiciones o ajustes de diseño.
 
-**\[Wireframe listado de líneas\]**
+![wireframe (1)](https://github.com/user-attachments/assets/0b56db9f-19e7-4a67-a0cb-be89d20350fa)
 
 **Endpoint para el listado de líneas:** <https://ualabee.com/api/v2/routes/getAll>
 
-<IMAGEN>
+![Screenshot from 2024-10-08 11-45-55](https://github.com/user-attachments/assets/58d70a79-a1bf-4d55-82e8-bb6ea3b29177)
 
 **Ejemplo de respuesta:** <https://pastebin.com/YtUFJhJS>
 
@@ -121,12 +121,13 @@ Basándose en el Mockup de Figma, desarrollar la pantalla que muestre el detalle
 
 - **Permisos:** Gestiona adecuadamente los permisos necesarios para utilizar mapas y acceder a la ubicación del usuario.
 
-**\[Mockup detalle de línea\]**
+![asd (1)](https://github.com/user-attachments/assets/9a5c85e9-201d-4c34-95a3-856118a70618)
 
 **Endpoint para el detalle de línea:**
 
 - **URL:** <https://ualabee.com/api/v2/routes/getTrips![>]
-<IMAEGN>
+
+![Screenshot from 2024-10-08 11-46-43](https://github.com/user-attachments/assets/3e96342b-36fd-4d77-8695-f26fd74ae09b)
 
 - **Ejemplo de respuesta:** <https://pastebin.com/E66ykTwu>
 
