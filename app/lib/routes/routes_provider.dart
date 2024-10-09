@@ -23,7 +23,6 @@ class RouteProvider extends ChangeNotifier {
         'Content-Type': 'application/json',
         'Authorization':
             'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1YWxhYmVlIiwiaXNzIjoiVWFsYWJlZSBBUEkgQWxwaGEgVGVzdGluZyIsInN1YiI6IjIiLCJuYW1lIjoiVWFsYWJlZSIsImlhdCI6MTUxNjIzOTAyMn0.dxRc2ufhuHrRq25AuO-s1LwQygUt4F6KD2JHhxIdEHE',
-        // Incluye el token aquí
       },
     );
 

@@ -2,6 +2,9 @@ import 'package:app/routes/routes_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../routes_details/trip_details_provider.dart';
+import '../routes_details/trip_details_screen.dart';
+
 class RouteListScreen extends StatefulWidget {
   @override
   _RouteListScreenState createState() => _RouteListScreenState();
@@ -11,7 +14,6 @@ class _RouteListScreenState extends State<RouteListScreen> {
   @override
   void initState() {
     super.initState();
-    // Llamar a la API cuando la pantalla se inicializa
     Future.microtask(() => context.read<RouteProvider>().fetchRoutes());
   }
 
@@ -70,7 +72,14 @@ class _RouteListScreenState extends State<RouteListScreen> {
                               color: Colors.green,
                             ),
                       onTap: () {
-                        print('Tile tapped for route: ${route.routeShortName}');
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => TripDetailsScreen(
+                                cityId: '1',
+                                routeId: route.routeId,
+                              )),
+                        );
                       },
                     );
                   },
