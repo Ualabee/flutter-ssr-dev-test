@@ -1,0 +1,21 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5  # Añade la librería provider para la gestión del estado
+  http: ^0.13.5  # Añade la librería http para realizar las solicitudes a la API
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
