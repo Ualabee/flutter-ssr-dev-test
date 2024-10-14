@@ -121,7 +121,7 @@ Basándose en el Mockup de Figma, desarrollar la pantalla que muestre el detalle
 
 - **Permisos:** Gestiona adecuadamente los permisos necesarios para utilizar mapas y acceder a la ubicación del usuario.
 
-![asd (1)](https://github.com/user-attachments/assets/9a5c85e9-201d-4c34-95a3-856118a70618)
+![test](https://github.com/user-attachments/assets/ad83023e-93da-4ced-af03-17b6c8defa1e)
 
 **Endpoint para el detalle de línea:**
 
