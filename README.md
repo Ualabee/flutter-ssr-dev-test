@@ -96,7 +96,7 @@ Utiliza el wireframe como guía para **mostrar un listado de líneas con su resp
 
 ![wireframe (1)](https://github.com/user-attachments/assets/0b56db9f-19e7-4a67-a0cb-be89d20350fa)
 
-**Endpoint para el listado de líneas:** <https://ualabee.com/api/v2/routes/getAll>
+**Endpoint para el listado de líneas:** <https://ualabee.dev/api/v2/routes/getAll>
 
 ![Screenshot from 2024-10-08 11-45-55](https://github.com/user-attachments/assets/58d70a79-a1bf-4d55-82e8-bb6ea3b29177)
 
@@ -125,7 +125,7 @@ Basándose en el Mockup de Figma, desarrollar la pantalla que muestre el detalle
 
 **Endpoint para el detalle de línea:**
 
-- **URL:** <https://ualabee.com/api/v2/routes/getTrips![>]
+- **URL:** <https://ualabee.dev/api/v2/routes/getTrips>
 
 ![Screenshot from 2024-10-08 11-46-43](https://github.com/user-attachments/assets/3e96342b-36fd-4d77-8695-f26fd74ae09b)
 
@@ -133,16 +133,12 @@ Basándose en el Mockup de Figma, desarrollar la pantalla que muestre el detalle
 
 Este retorna un listado de trips, tu tarea va a ser mostrar el detalle de sólo el primero de ellos.
 
-**Bitmap para los markers de parada:**
-
-&lt;ADJUNTAR PNG&gt;
-
 ## INSTRUCCIONES PARA LA ENTREGA
 
-- **Archivos del Proyecto:** Proporciona todos los archivos de código fuente en un archivo zip o un enlace a un repositorio Git (preferiblemente GitHub o GitLab).
+- **Repositorio Git:** Utiliza el repositorio que te hemos proporcionado. Crea una rama con tu nombre y apellido y realiza todos los commits que sean necesarios durante el desarrollo del proyecto.
+- **Entrega final:** Al finalizar el examen, asegúrate de enviar (push) todos tus cambios al repositorio.
 - **Archivo README:** Incluye un archivo README con:
-  - Instrucciones claras sobre cómo ejecutar la aplicación en web y Android.
-  - Listado de dependencias utilizadas y su compatibilidad con ambas plataformas.
+  - En caso de ser necesario adjuntar instrucciones sobre cómo ejecutar la aplicación en web y Android.
   - Notas sobre tu implementación y cualquier suposición realizada.
   - Notas Adicionales: Si no pudiste completar alguna parte, explica brevemente los motivos y cómo lo abordarías con más tiempo.
 
